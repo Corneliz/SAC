@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.css" >
+    	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    	<link rel="stylesheet" href="css/animations.css">
+    	<script src="js/menu.js"></script>
+
+		<title>SAC Caso</title>
+	</head>
+	<header class="pullDown">	
+		<a id="touch-menu" class="mobile-menu" href="#"><i class="icon-reorder"></i>Menu</a>
+   		<nav>  
+	     	<ul class="menu">
+	     		<label>SAC</label>
+		        <li><a href="cliente.html"><i></i>Cliente</a></li>
+		        <li class="active"><a  href="casos.html"><i></i>Caso</a></li>
+		        <li><a href="#"><i></i>Solicitud</a>  
+		        <li class="col-lg-offset-1 col-md-offset-6 col-sm-offset-4 col-xs-offset-2"><a href="#"><span id="nombreUsuario">Yoselin Corneliz</span> <i class="icon-user"></i></a></li>
+	      	</ul>
+    	</nav>
+  	</header>
+	<body>
+		<section class="container">
+			<div class="row slideLeft">								
+				<article id="caso" class="col-md-5 col-md-offset-1">
+					<label> Caso </label>					
+					<a class="btn" name="back" type="button" value="Consultar"/><i class="fa fa-arrow-circle-left" aria-hidden="true"></i><span> Consultar </span></a>	
+				</article>
+				<article id="" class="col-md-3 col-md-offset-3">
+					<label> Estatus </label>					
+					<a class="btn btn-2" name="estatus" type="" value=""/><i class="fa fa-check fa-1x" aria-hidden="true"></i><span>Cerrado</span></a>	
+				</article>
+			</div>
+			<div class="row pullDown">
+				<article class="col-md-12">
+					<label>Caso:</label>
+					<input name="caso" type="text" class="form-control no-estilo" id="caso" value="IV00000079" disabled/>
+					<label>Nombre:</label>
+					<input name="cliente" type="text" class="form-control no-estilo" id="cliente" value="María Pérez" disabled/>
+					<label>¿Qué necesita?:</label>
+					<input name="solicitud" type="text" class="form-control no-estilo" id="solicitud" value="Esta es una prueba de contenido" disabled/>
+					<label>Fecha de apertura:</label>
+					<input name="fecha_solicitud" type="text" class="form-control no-estilo" id="fecha_solicitud" value="29/07/2016" disabled/>
+					<label>Insertado por:</label>
+					<input name="" type="text" class="form-control no-estilo" id="" value="Agente" disabled/>
+				</article>
+			</div>
+		</section>
+		<section class="container">
+			<div class="row">
+				<article class="menu-secundario">
+					<div class="col-md-12">						
+						<ul class="nav nav-tabs nav-justified">
+							<li role="presentation" class="dropdown">
+	   						 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Caso <span class=""></span> </a></li>
+	   						 <li role="presentation" class="dropdown">
+	   						 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Acciones <span class=""></span> </a></li>
+	   						 <li role="presentation" class="dropdown">
+	   						 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Más Info <span class=""></span> </a></li>
+	   						 <li role="presentation" class="dropdown">
+	   						 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Archivos <span class=""></span> </a></li>	   					
+						</ul>
+					</div>
+				</article>
+			</div>
+			<div class="row">
+				<article id="info" class="izquierda">
+					<div class="col-md-6">						
+						<div class="panel panel-default">
+							<div class="panel-heading ">Contacto</div>
+							<div class="panel-body">
+								<label>Nombre:</label>
+								<span>Maria Perez</span><br>
+								<label>Correo:</label>
+								<span>perezmaria@gmail.com</span><br>
+								<label>Teléfono:</label>
+								<span>0412-6762577</span>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article id="info" class="derecha">
+					<div class="col-md-6">						
+						<div class="panel panel-default">
+							<div class="panel-heading">¿Para qué?</div>
+							<div class="panel-body">							
+								<p>Continuar operando el sistema</p>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+			
+		</section>
+		<script src="js/jquery.min.js"></script>  
+   		<script src="js/jquery.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

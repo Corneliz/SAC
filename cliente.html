@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.css" >
+    	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    	<link rel="stylesheet" href="css/animations.css">	
+		<title>SAC Cliente</title>
+	</head>
+	<header class="pullDown">	
+		<a id="touch-menu" class="mobile-menu" href="#"><i class="icon-reorder"></i>Menu</a>
+   		<nav>  
+	     	<ul class="menu">
+	     		<label>SAC</label>
+		        <li class="active"><a href="cliente.html"><i></i>Cliente</a></li>
+		        <li><a  href="casos.html"><i></i>Caso</a></li>
+		        <li><a href="#"><i></i>Solicitud</a>  
+		        <li class="col-lg-offset-1 col-md-offset-6 col-sm-offset-4 col-xs-offset-2"><a href="#"><span id="nombreUsuario">Yoselin Corneliz</span> <i class="icon-user"></i></a></li>
+	      	</ul>
+    	</nav>
+  	</header>
+	<body>
+		<section class="container">
+			<form id="cliente" class="form-inline">
+				<div class="row slideLeft form-group">			
+					<article class="col-md-12">
+						<label> Cliente </label>				
+						<a class="btn" name="back" value="Consultar"/><span> Gestionar </span></a>	
+					</article>
+				</div>
+				<div class="row pullDown">
+					<article id="consulta" class="col-md-4 col-md-offset-8 col-xs-8">
+						<input autocapitalize="off" autocorrect="off" autofocus="autofocus" class="form-control input-block" id="buscar" name="buscar" type="text" placeholder="Busqueda..."/>
+						<button class="btn" name="buscar" type="submit"/><i class="fa fa-check fa-1x" aria-hidden="true"></i></button>
+					</article>
+				</div>
+			</form>
+		</section>		
+		<section class="container pullDown">
+			<div class="row">
+				<article class="menu-secundario">
+					<div class="col-md-12">
+						<div class="panel panel-default">
+							<div class="panel-heading ">Lista de Clientes</div>
+							<div class="panel-body">
+								<p class="text-center">Solo se traeran un total de 20 registros por coincidencia del filtro ingresado</p>
+								<div class="table-responsive text-center">
+					 				<table class="table">
+					 					<tr class="danger">
+										  <td>Código</td>
+										  <td>Cliente</td>
+										  <td>ID Fiscal</td>
+										  <td>Teléfono(s)</td>
+										  <td>Status</td>
+										  <td>Detalles</td>
+										</tr>
+										<tr>
+										  <td>-</td>
+										  <td>-</td>
+										  <td>-</td>
+										  <td>-</td>
+										  <td>-</td>
+										  <td>-</td>
+										</tr> 	    	
+					  				</table>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>			
+		</section>
+		<script src="js/jquery.min.js"></script>  
+   		<script src="js/jquery.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+		<script src="js/menu.js"></script>
+	</body>
+</html>
